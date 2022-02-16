@@ -1,0 +1,21 @@
+.navbar, footer {
+    background-color: var(--primary-color);
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    margin-bottom: 25px;
+}
+
+/* .navbar-brand, .nav-link, .navbar-brand:hover {
+    color: var(--secondary-color);
+} */
+
+.nav-link:hover {
+    border-bottom: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+a:visited {
+    color:  var(--secondary-color) !important;
+}

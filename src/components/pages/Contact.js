@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { validateEmail } from '../../utils/helpers';
+import '../../styles/Contact.css'
 
 export default function Contact() {
   
@@ -45,9 +46,9 @@ export default function Contact() {
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
-          <div className="card m-5">
+          <div className="contact-card m-5">
             <div className="card-body m-3">
-              <h2 className="text-center">Contact Me</h2>
+              <h2 className="text-center text-white">Contact Me</h2>
               <form className="form text-center">
                 <div className="form-group">
                   <input
@@ -69,6 +70,7 @@ export default function Contact() {
                     type="email"
                     placeholder="Email"
                     required
+                    
                   />
                 </div>
                 <div className="form-group">
@@ -79,10 +81,11 @@ export default function Contact() {
                     onChange={handleInputChange}
                     type="text"
                     placeholder="Enter message"
+                    rows="4"
                     required
                   />
                 </div>
-                <button className="btn btn-primary" type="submit" onClick={handleFormSubmit}>Submit</button>
+                <button className="btn btn-success" type="submit" onClick={handleFormSubmit}>Submit</button>
               </form>
             </div>
             {errorMessage && (

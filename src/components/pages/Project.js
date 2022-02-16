@@ -1,11 +1,23 @@
 import React from 'react';
+import '../../styles/Project.css'
+// import json
+import projects from '../../projects.json'
 
 export default function Project() {
   return (
-    <section className="section-container">
-            <div className="header-container" id="projects">
-              <h2>Projects</h2>
-            </div>
+      
+    //   map over json
+    // {projects.map(project => (
+    //     <a className="project project-background project-background-img-2 sub-project"  title="screenshot of project" href={project.deployed} target="_blank" rel="noreferrer" key={project.id}>
+    //         <h3 className="project-heading">{project.title}</h3>
+    //         <form action={project.repo} target="_blank" method="get">
+    //         <button className="repo-heading"><i className="fab fa-github"></i></button></form>
+    //     </a>
+    // ))}
+    // <section className="section-container">
+    //         <div className="header-container" id="projects">
+    //           <h2>Projects</h2>
+    //         </div>
             <section className="project-container">
                 <a className="project project-background project-background-img-1 main-project" title="screenshot of project" href="https://jdomindev.github.io/game-getter/" target="_blank" rel="noreferrer">
                     <h3 className="project-heading">Game Getter</h3>
@@ -26,6 +38,6 @@ export default function Project() {
                     </a>
                 </div>
             </section>
-        </section>
+        // </section>
   );
 }

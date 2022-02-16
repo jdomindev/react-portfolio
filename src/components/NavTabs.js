@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/Nav.css'
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
