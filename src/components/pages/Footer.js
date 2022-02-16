@@ -5,13 +5,13 @@ export default function Footer() {
         <footer className="text-center text-white" id="contact">
             <div className="container p-4 pb-0">
                 <section className="mb-1">
-                <a className="btn btn-outline-light btn-floating m-1" href="mailto:jdomindev@gmail.com" role="button"
+                <a className="btn btn-outline-light btn-floating me-2" href="mailto:jdomindev@gmail.com" role="button"
                     ><i className="fab fa-google"></i
                 ></a>
-                <a className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/jose-dominguez-94b689225/" role="button"
+                <a className="btn btn-outline-light btn-floating me-2" href="https://www.linkedin.com/in/jose-dominguez-94b689225/" role="button"
                     ><i className="fab fa-linkedin"></i
                 ></a>
-                <a className="btn btn-outline-light btn-floating m-1" href="https://github.com/jdomindev" role="button"
+                <a className="btn btn-outline-light btn-floating me-2" href="https://github.com/jdomindev" role="button"
                     ><i className="fab fa-github"></i
                 ></a>
                 </section>

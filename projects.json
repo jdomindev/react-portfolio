@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Game Getter",
+        "repo": "https://github.com/jdomindev/game-getter",
+        "deployed": "https://jdomindev.github.io/game-getter/",
+        "image": ""
+    },
+    {
+        "title": "Work Day Planner",
+        "repo": "https://github.com/jdomindev/work-day-planner",
+        "deployed": "https://jdomindev.github.io/work-day-planner/",
+        "image": ""
+    },
+    {
+        "title": "Password Generator",
+        "repo": "https://github.com/jdomindev/password-generator",
+        "deployed": "https://jdomindev.github.io/password-generator/",
+        "image": ""
+    },
+    {
+        "title": "Weather Dashboard",
+        "repo": "https://github.com/jdomindev/weather-dashboard",
+        "deployed": "https://jdomindev.github.io/weather-dashboard/",
+        "image": ""
+    },
+    {
+        "title": "Tech Blog",
+        "repo": "https://github.com/jdomindev/tech-blog",
+        "deployed": "https://secret-everglades-34739.herokuapp.com/",
+        "image": ""
+    },
+    {
+        "title": "g-Wish",
+        "repo": "https://github.com/jdomindev/g-Wish",
+        "deployed": "https://dashboard.heroku.com/apps/mighty-lowlands-12407",
+        "image": ""
+    }
+
+]

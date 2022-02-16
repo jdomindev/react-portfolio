@@ -1,22 +1,98 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { validateEmail } from '../../utils/helpers';
 
 export default function Contact() {
+  
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
+  const [errorMessage, setErrorMessage] = useState('');
+  
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === 'email') {
+      setEmail(inputValue);
+    } else if (inputType === 'name') {
+      setName(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (!validateEmail(email) || !name) {
+      setErrorMessage('Email or name is invalid');
+      return;
+    }
+    if (!message) {
+      setErrorMessage('Please leave a message');
+      return;
+    }
+    alert(`Thanks for reaching out, ${name}`);
+
+    setName('');
+    setEmail('');
+    setMessage('');
+    setErrorMessage('');
+  };
+
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-12">
+          <div className="card m-5">
+            <div className="card-body m-3">
+              <h2 className="text-center">Contact Me</h2>
+              <form className="form text-center">
+                <div className="form-group">
+                  <input
+                    className="form-control my-3"
+                    value={name}
+                    name="name"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <input
+                    className="form-control my-3"
+                    value={email}
+                    name="email"
+                    onChange={handleInputChange}
+                    type="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+                <div className="form-group">
+                  <textarea
+                    className="form-control my-3"
+                    value={message}
+                    name="message"
+                    onChange={handleInputChange}
+                    type="text"
+                    placeholder="Enter message"
+                    required
+                  />
+                </div>
+                <button className="btn btn-primary" type="submit" onClick={handleFormSubmit}>Submit</button>
+              </form>
+            </div>
+            {errorMessage && (
+              <div>
+                <p className="error-text text-center mb-3 h6">{errorMessage}</p>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

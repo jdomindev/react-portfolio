@@ -6,26 +6,24 @@ import Contact from './pages/Contact';
 import Footer from './pages/Footer';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState('About');
 
   // TODO: Add a comment describing the functionality of this method
   const renderPage = () => {
-    if (currentPage === 'Contact') {
-      return <Contact />;
+    if (currentPage === 'About') {
+      return <About />;
     }
     if (currentPage === 'Project') {
       return <Project />;
     }
-    return <About />;
+    return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
-      {/* // TODO: Add a comment describing what we are passing as props */}
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* // TODO: Add a comment explaining what is happening on the following line */}
       {renderPage()}
       <Footer/>
     </div>
