@@ -5,15 +5,17 @@ export default function Footer() {
         <footer className="text-center text-white" id="contact">
             <div className="container p-4 pb-0">
                 <section className="mb-1">
-                <a className="btn btn-outline-light btn-floating me-2" href="mailto:jdomindev@gmail.com" role="button"
+                <a className="btn btn-outline-light btn-floating me-2" href="mailto:jdomindev@gmail.com" target="_blank" rel="noreferrer" role="button"
                     ><i className="fab fa-google"></i
                 ></a>
-                <a className="btn btn-outline-light btn-floating me-2" href="https://www.linkedin.com/in/jose-dominguez-94b689225/" role="button"
+                <a className="btn btn-outline-light btn-floating me-2" href="https://www.linkedin.com/in/jose-dominguez-94b689225/" target="_blank" rel="noreferrer" role="button"
                     ><i className="fab fa-linkedin"></i
                 ></a>
-                <a className="btn btn-outline-light btn-floating me-2" href="https://github.com/jdomindev" role="button"
+                <a className="btn btn-outline-light btn-floating me-2" href="https://github.com/jdomindev" target="_blank" rel="noreferrer" role="button"
                     ><i className="fab fa-github"></i
                 ></a>
+                <a className="btn btn-outline-light btn-floating me-2" href="https://stackoverflow.com/users/17254557/jose-dominguez" target="_blank" rel="noreferrer" role="button"
+                    ><i class="fab fa-stack-overflow"></i></a>
                 </section>
             </div>
             <div className="mt-3">
@@ -23,5 +25,5 @@ export default function Footer() {
                 <h6 className="text-white text-decoration-none">© 2022 Copyright: Jose Dominguez</h6>
             </div>
         </footer>
-    );
+    )
 }

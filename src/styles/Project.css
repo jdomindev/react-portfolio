@@ -13,6 +13,10 @@
     display: flex;
     justify-content: center;
   } */
+
+  .project-header {
+    border-bottom: 2px solid var(--secondary-color);
+  }
   
   .project-container {
     display: flex;
@@ -20,13 +24,14 @@
     width: auto;
   }
   
-  .main-project {
+  /* .main-project {
     width: 100%;
-  }
+  } */
   
   .project {
     position: relative;
     height: 300px;
+    width: 300px;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
@@ -34,10 +39,6 @@
     background-size: cover;
     background-color: var(--secondary-color-opacity);
     background-blend-mode: multiply;
-  }
-  
-  .project:last-child {
-    margin-bottom: 40px;
   }
   
   .project:hover {
@@ -73,7 +74,7 @@
   }
   
   .sub-project {
-    flex: 1 1 300px;
+    flex: 1 1 500px;
   }
   
   .project-heading {
