@@ -1,5 +1,5 @@
 
-.header-container {
+/* .header-container {
     display: flex;
     justify-content: flex-start;
     color: var(--secondary-color);
@@ -7,18 +7,17 @@
     width: 15%;
     margin-left: 30px;
     margin-bottom: 20px;
-  }
+  } */
   
-  .section-container {
+  /* .section-container {
     display: flex;
     justify-content: center;
-  }
+  } */
   
   .project-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    width: 90%;
+    width: auto;
   }
   
   .main-project {
@@ -44,10 +43,6 @@
   .project:hover {
     top: -5px;
     box-shadow: 5px 5px 10px var(--shadow-color);
-  }
-  
-  .project-background {
-    border-radius: 10px;
   }
   
   /* .project-background-img-1 {
@@ -85,11 +80,10 @@
     position: absolute;
     padding: 10px;
     top: 20px;
-    left: 0px;
+    left: 10px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    width: unset;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px 10px 10px;
   }
   
   .repo-heading {
@@ -102,6 +96,5 @@
     width: unset;
     border-radius: 10px 10px 10px 10px;
     font-size: 30px;
-    border:none;
-    outline:none;
+    border: none;
   }

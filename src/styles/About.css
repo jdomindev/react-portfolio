@@ -1,14 +1,15 @@
 .about-me-card, .img-size {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .img-size {
-  width: 50%;
+  width: 250px;
 }
 
 .about-me-card {
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: var(--primary-color);
   color: var(--secondary-color);
   box-shadow: 5px 5px 10px var(--shadow-color);
+  align-items: center;
 }

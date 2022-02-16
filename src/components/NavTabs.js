@@ -8,7 +8,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         <a className="navbar-brand" href="#about" onClick={() => handlePageChange("About")}>
           <h2 className="m-0">Jose Dominguez</h2>
         </a>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="navbar-collapse collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto text-decoration-none">
             <a
               href="#about"
@@ -41,9 +44,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               href="https://drive.google.com/file/d/1XPvQN6AZCTswh5gEIgW8Gjur9PCPnZ0U/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
-              className={
-                currentPage === "Contact" ? "nav-link active m-0 h5" : "nav-link m-0 h5"
-              }
+              className="nav-link m-0 h5"
             >
               Resume
             </a>

@@ -44,10 +44,10 @@ export default function Contact() {
 
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
+      <div className="row justify-content-center">
+        <div className="col-md-12 col-lg-8">
           <div className="contact-card m-5">
-            <div className="card-body m-3">
+            <div className="card-body p-3">
               <h2 className="text-center text-white">Contact Me</h2>
               <form className="form text-center">
                 <div className="form-group">
@@ -85,12 +85,12 @@ export default function Contact() {
                     required
                   />
                 </div>
-                <button className="btn btn-success" type="submit" onClick={handleFormSubmit}>Submit</button>
+                <button className="btn button" type="submit" onClick={handleFormSubmit}>Submit</button>
               </form>
             </div>
             {errorMessage && (
               <div>
-                <p className="error-text text-center mb-3 h6">{errorMessage}</p>
+                <p className="error-text text-center text-white pb-3">{errorMessage}</p>
               </div>
             )}
           </div>

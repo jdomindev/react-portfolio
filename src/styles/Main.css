@@ -2,16 +2,42 @@
     --primary-color: rgb(34, 106, 199);
     --secondary-color: rgb(246, 245, 245);
     --secondary-color-opacity: rgba(15, 1, 1, 0.5);
-    --tertiary-color: rgb(175, 175, 175);
+    --tertiary-color: rgb(41, 41, 41);
     --shadow-color: rgba(0, 5, 17, 0.5);
+}     
+  
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--tertiary-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 992px) {
+  
+  /* nav */
+  .nav-link:hover {
+      border-bottom: 2px solid var(--secondary-color);
+      color: var(--secondary-color);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* about me */
+  .profile-img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
   }
   
-  html {
-    scroll-behavior: smooth;
+  /* projects */
+  .header-container {
+    margin: 10px auto;
+    width: fit-content;
   }
   
-  body {
-    background-color: rgb(41, 41, 41);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-  }
+}

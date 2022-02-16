@@ -1,3 +1,10 @@
 .contact-card {
     background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.button {
+    width: 175px;
+    background-color: var(--tertiary-color) !important;
+    color: var(--secondary-color) !important;
 }
