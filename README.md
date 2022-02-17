@@ -2,7 +2,9 @@
 ## Description
 This is my react portfolio that I am using to house my projects, resume, and contact information for employers and anyone who wants to see what I'm up to.
 
-- During this project I learned how to set up a react environment 
+- During this project I learned how to set up a react environment where I modularized my html into components that are conditionally rendered based on what page you are currently on.
+- I was also able to add a separate js file that house all my project info and then map over that data to dynamically generate cards showcasing my various projects.
+- Each of the created components has its own style sheet associated with it as well.
 
 ## Table of Contents
 - [Installation](#installation)

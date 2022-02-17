@@ -1,22 +1,9 @@
 import React, {useState} from 'react';
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 import { validateEmail } from '../../utils/helpers';
 import '../../styles/Contact.css'
 
 export default function Contact() {
-
-  const { register, handleSubmit, watch, errors } = useForm();
-  const onSubmit = data => console.log(data);
-  // return (
-  //   <div className="App">
-  //     <form onSubmit={handleSubmit(onSubmit)}>
-  //       <input name="requiredField" ref={register({ required: true })} />
-  //       <br />
-  //       {errors.requiredField && <span>This field is required</span>}
-  //       <br />
-  //       <input type="submit" />
-  //     </form>
-  //   </div>
 
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
