@@ -80,7 +80,7 @@
   .project-heading {
     position: absolute;
     padding: 10px;
-    top: 20px;
+    top: 15px;
     left: 10px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -90,8 +90,8 @@
   .repo-heading {
     position: absolute;
     padding: 10px;
-    bottom: 20px;
-    right: 25px;
+    bottom: 15px;
+    right: 10px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     width: unset;

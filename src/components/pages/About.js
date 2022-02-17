@@ -1,4 +1,5 @@
 import React from 'react';
+import profile from '../../images/profile-image.jpg'
 import '../../styles/About.css'
 
 export default function About() {
@@ -8,7 +9,7 @@ export default function About() {
             <div className="container">
                 <div className="row m-5 align-items-center profile">
                     <div className="col-md-6 profile-img">
-                        <img className="img-size" src="/images/profile-image.jpg" alt="profile of Jose Dominguez"></img>
+                        <img className="img-size" src={profile} alt="profile of Jose Dominguez"></img>
                     </div>
                     <div className="about-me-card col-md-6">
                         <div className="card-body">

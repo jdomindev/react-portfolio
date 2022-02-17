@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/Nav.css'
 
-function NavTabs({ currentPage, handlePageChange }) {
+export default function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-dark sticky-top navbar-expand-lg">
       <div className="container-fluid">
@@ -54,5 +54,3 @@ function NavTabs({ currentPage, handlePageChange }) {
     </nav>
   );
 }
-
-export default NavTabs;
