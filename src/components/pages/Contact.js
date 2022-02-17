@@ -46,7 +46,7 @@ export default function Contact() {
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-sm-12 p-0">
-          <div className="contact-card m-5">
+          <div className="contact-card mx-3 my-5">
             <div className="card-body p-3">
               <h2 className="text-center text-white">Contact Me</h2>
               <form className="form text-center">

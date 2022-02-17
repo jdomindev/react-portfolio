@@ -13,7 +13,7 @@ const projectList = projects.map(project => (
 
 export default function Project() {
     return (
-    <section className="section-container mx-2 mb-5">
+    <section className="section-container mx-3 mb-5">
         <h2 className="text-center text-white project-header my-4 p-3">Projects</h2>
         <section className="project-container">
             { projectList }

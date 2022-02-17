@@ -7,7 +7,7 @@ export default function About() {
     <section id="about">
         <div className="jumbotron jumbotron-fluid">
             <div className="container">
-                <div className="row m-5 align-items-center profile">
+                <div className="row my-5 mx-3 align-items-center profile">
                     <div className="col-md-6 profile-img">
                         <img className="img-size" src={profile} alt="profile of Jose Dominguez"></img>
                     </div>
