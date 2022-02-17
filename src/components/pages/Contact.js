@@ -1,9 +1,23 @@
 import React, {useState} from 'react';
+import { useForm } from "react-hook-form";
 import { validateEmail } from '../../utils/helpers';
 import '../../styles/Contact.css'
 
 export default function Contact() {
-  
+
+  const { register, handleSubmit, watch, errors } = useForm();
+  const onSubmit = data => console.log(data);
+  // return (
+  //   <div className="App">
+  //     <form onSubmit={handleSubmit(onSubmit)}>
+  //       <input name="requiredField" ref={register({ required: true })} />
+  //       <br />
+  //       {errors.requiredField && <span>This field is required</span>}
+  //       <br />
+  //       <input type="submit" />
+  //     </form>
+  //   </div>
+
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
@@ -21,15 +35,32 @@ export default function Contact() {
     } else {
       setMessage(inputValue);
     }
+    
+    if (name.length === 0) {
+      setErrorMessage('Name field is required')
+    } else if (email.length === 0) {
+      setErrorMessage('Email field is required')
+    } else if (message.length === 0) {
+      setErrorMessage('Message field is required')
+    } else {
+      setErrorMessage('')
+    }
+
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    if (!validateEmail(email) || !name) {
-      setErrorMessage('Email or name is invalid');
+    if (!name) {
+      setErrorMessage('Name is invalid');
       return;
     }
+
+    if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
+      return;
+    }
+
     if (!message) {
       setErrorMessage('Please leave a message');
       return;
@@ -58,7 +89,6 @@ export default function Contact() {
                     onChange={handleInputChange}
                     type="text"
                     placeholder="Full Name"
-                    required
                   />
                 </div>
                 <div className="form-group">
@@ -70,7 +100,6 @@ export default function Contact() {
                     type="email"
                     placeholder="Email"
                     required
-                    
                   />
                 </div>
                 <div className="form-group">

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../styles/Project.css'
 // import json
-import projects from '../../projects'
+import projects from '../../utils/projects'
 
 const projectList = projects.map(project => (
     <a className="project sub-project project-background" style={{ backgroundImage: `url(${project.image})`}} title="screenshot of project" href={project.deployed} target="_blank" rel="noreferrer" key={project.id}>

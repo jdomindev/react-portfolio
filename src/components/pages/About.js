@@ -8,7 +8,7 @@ export default function About() {
         <div className="jumbotron jumbotron-fluid">
             <div className="container">
                 <div className="row my-5 mx-3 align-items-center profile">
-                    <div className="col-md-6 profile-img">
+                    <div className="col-md-6 profile-img text-center">
                         <img className="img-size" src={profile} alt="profile of Jose Dominguez"></img>
                     </div>
                     <div className="about-me-card col-md-6">
