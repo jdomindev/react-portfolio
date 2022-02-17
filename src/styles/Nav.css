@@ -5,7 +5,3 @@
 a:visited {
     color:  var(--secondary-color) !important;
 }
-
-.active {
-    border-bottom: 2px solid var(--secondary-color)
-}

@@ -23,6 +23,10 @@ body {
       border-bottom: 2px solid var(--secondary-color);
       color: var(--secondary-color);
   }
+
+    .active {
+      border-bottom: 2px solid var(--secondary-color)
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -35,9 +39,14 @@ body {
   }
   
   /* projects */
-  .header-container {
+  /* .header-container {
     margin: 10px auto;
     width: fit-content;
+  } */
+  .sub-project {
+    width: 400px;
   }
+
+
   
 }

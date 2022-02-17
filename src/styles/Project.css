@@ -1,19 +1,4 @@
 
-/* .header-container {
-    display: flex;
-    justify-content: flex-start;
-    color: var(--secondary-color);
-    border-bottom: 3px solid var(--primary-color);
-    width: 15%;
-    margin-left: 30px;
-    margin-bottom: 20px;
-  } */
-  
-  /* .section-container {
-    display: flex;
-    justify-content: center;
-  } */
-
   .project-header {
     border-bottom: 2px solid var(--secondary-color);
   }
@@ -23,10 +8,6 @@
     flex-wrap: wrap;
     width: auto;
   }
-  
-  /* .main-project {
-    width: 100%;
-  } */
   
   .project {
     position: relative;
@@ -81,7 +62,7 @@
     position: absolute;
     padding: 10px;
     top: 15px;
-    left: 5px;
+    left: 10px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-radius: 10px 10px 10px 10px;
