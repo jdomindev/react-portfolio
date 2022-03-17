@@ -29,7 +29,7 @@ export default function PortfolioContainer() {
           <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
           <Routes>
         
-            <Route exact path="/about" element={<About />}></Route>
+            <Route exact path="/" element={<About />}></Route>
             <Route exact path="/projects" element={<Project />}></Route>
             <Route exact path="/contact" element={<Contact />}></Route>
           </Routes>
