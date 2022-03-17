@@ -17,7 +17,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
         <div className="navbar-collapse collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto text-decoration-none">
             <Link
-              to="/"
+              to="/react-portfolio"
               onClick={() => handlePageChange("About")}
               className={
                 currentPage === "About" ? "nav-link active m-0 h5" : "nav-link m-0 h5"
