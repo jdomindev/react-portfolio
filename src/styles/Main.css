@@ -1,8 +1,10 @@
 :root {
-    --primary-color: rgb(34, 106, 199);
+    /* --primary-color: rgb(34, 106, 199); */
+    --primary-color: rgb(59, 119, 197);
     --secondary-color: rgb(246, 245, 245);
     --secondary-color-opacity: rgba(15, 1, 1, 0.5);
-    --tertiary-color: rgb(41, 41, 41);
+    --tertiary-color: rgb(56, 56, 56);
+    --background-color: rgb(41, 41, 41);
     --shadow-color: rgba(0, 5, 17, 0.5);
 }     
   
@@ -10,10 +12,15 @@ html {
   scroll-behavior: smooth;
 }
 
+nav, .card-title, .project-heading, .project-header, .contact-header, .copyright {
+  font-family: 'Saira', sans-serif;
+}
+
 body {
-  background-color: var(--tertiary-color);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--background-color);
   font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  height: 100vh;
 }
 
 @media only screen and (min-width: 992px) {
@@ -28,6 +35,7 @@ body {
       border-bottom: 2px solid var(--secondary-color)
   }
 }
+
 
 @media only screen and (max-width: 768px) {
 

@@ -61,12 +61,12 @@ export default function Contact() {
   };
 
   return (
-    <div className="container">
+    <div className="container contact-container">
       <div className="row justify-content-center">
         <div className="col-lg-8 col-sm-12 p-0">
           <div className="contact-card mx-3 my-5">
             <div className="card-body p-3">
-              <h2 className="text-center text-white">Contact Me</h2>
+              <h2 className="contact-header text-center text-white">Contact Me</h2>
               <form className="form text-center">
                 <div className="form-group">
                   <input

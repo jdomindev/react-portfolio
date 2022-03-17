@@ -6,10 +6,19 @@
   width: 250px;
 }
 
+.about-me-card, .img-size {
+  box-shadow: 5px 5px 10px var(--shadow-color);
+}
+
 .about-me-card {
   border-radius: 10px;
-  background-color: var(--primary-color);
+  background: linear-gradient(to bottom, var(--primary-color) 70px, var(--tertiary-color) 0px);
   color: var(--secondary-color);
-  box-shadow: 5px 5px 10px var(--shadow-color);
+  
   align-items: center;
+}
+
+.icon-styles {
+ padding: 10px;
+ font-size: 100px;
 }

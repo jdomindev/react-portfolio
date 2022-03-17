@@ -1,4 +1,8 @@
 
+  .section-container {
+    padding-bottom: 200px;
+  }
+  
   .project-header {
     border-bottom: 2px solid var(--secondary-color);
   }
