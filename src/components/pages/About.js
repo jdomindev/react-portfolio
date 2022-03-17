@@ -14,7 +14,10 @@ export default function About() {
                     <div className="about-me-card col-md-6">
                         <div className="card-body">
                             <h1 className="card-title mb-4">About Me</h1>
-                            <p className="card-text">Hey, I'm Jose Dominguez, an ecology degree graduate from the University of Delaware. I recently switched lanes and I'm pursuing being a full stack developer after I finish a coding bootcamp with UPenn.
+                            <p className="card-text">Full-stack web developer whose aim is to build enjoyable user experiences that help people get the information they need with ease. My focus is being an energetic problem-solver and hard working team member to build high quality functional apps. 
+                                <br></br>
+                                <br></br>
+                                With my newly expanded skill set from a UPENN coding bootcamp, I’m ready to dive into the world of web development and continue my coding journey. My skills include knowledge in HTML, CSS, JavaScript, as well as, experience building full stack MERN apps, working with RESTful APIs and mySQL.
                                 <br></br>
                                 <br></br>
                                 My interests include playing guitar, skateboarding, and playing video games in my free time. I also enjoy being outdoors and going "herping" at my local and state parks when I have the chance.</p>
