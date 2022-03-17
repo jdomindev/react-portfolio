@@ -7,4 +7,9 @@ import 'popper.js';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './styles/Main.css'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
