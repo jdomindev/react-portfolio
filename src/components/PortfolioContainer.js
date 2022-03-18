@@ -25,12 +25,16 @@ export default function PortfolioContainer() {
   return (
     <div>
       <Router basename='/react-portfolio'>
+      <div id="page-container">
+        <div id="content-wrap">
           <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         
             <Route exact path="/"><About /></Route>
             <Route exact path="/projects"><Project /></Route>
             <Route exact path="/contact"><Contact /></Route>
-      <Footer/>
+        </div>
+        <Footer/>
+      </div>
       </Router>
     </div>
   );

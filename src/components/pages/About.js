@@ -4,7 +4,6 @@ import '../../styles/About.css'
 
 export default function About() {
   return (
-    <section id="about" className="about-container">
         <div className="jumbotron jumbotron-fluid">
             <div className="container">
                 <div className="row my-5 mx-3 align-items-center">
@@ -45,6 +44,5 @@ export default function About() {
                 </div>
             </div>
         </div>
-    </section>
   );
 }

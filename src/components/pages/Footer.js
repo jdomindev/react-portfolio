@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <footer className="text-center text-white position-fixed w-100 bottom-0 mt-5" id="contact">
+        
+        <footer className="text-center text-white" id="contact">
             <div className="container p-4 pb-0">
                 <section className="mb-1">
                 <a className="btn btn-outline-light btn-floating me-2" href="mailto:jdomindev@gmail.com" target="_blank" rel="noreferrer" role="button"

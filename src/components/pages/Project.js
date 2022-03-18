@@ -13,8 +13,8 @@ const projectList = projects.map(project => (
 
 export default function Project() {
     return (
-    <section className="section-container mx-3 mb-5">
-        <h1 className="text-center text-white project-header my-4 p-3">Projects</h1>
+    <section className="section-container mx-3 mb-5 mt-4">
+        <h1 className="text-center text-white project-header mb-4 pb-3 px-3">Projects</h1>
         <section className="project-container">
             { projectList }
         </section>
