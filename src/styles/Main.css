@@ -12,7 +12,7 @@ html {
   scroll-behavior: smooth;
 }
 
-nav, .card-title, .project-heading, .project-header, .contact-header, .copyright {
+nav, .card-title, .project-title, .contact-header, .copyright {
   font-family: 'Saira', sans-serif;
 }
 
@@ -62,14 +62,11 @@ body {
     margin-bottom: 10px;
   }
   
-  /* projects */
-  /* .header-container {
-    margin: 10px auto;
-    width: fit-content;
+  /* projects
+  .project-mobile {
+   display: flex;
+   flex-wrap: wrap;
   } */
-  .sub-project {
-    width: 400px;
-  }
 
 
   

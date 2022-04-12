@@ -1,83 +1,63 @@
+.project-header {
+  border-bottom: 2px solid var(--secondary-color);
+}
 
+.project-card {
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  background: linear-gradient(
+    to bottom,
+    var(--primary-color) 65px,
+    var(--tertiary-color) 0px
+  );
+  color: var(--secondary-color);
+  box-shadow: 5px 5px 10px var(--shadow-color);
   
-  .project-header {
-    border-bottom: 2px solid var(--secondary-color);
-  }
-  
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: auto;
-  }
-  
-  .project {
-    position: relative;
-    height: 300px;
-    width: 300px;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    border: 5px solid var(--primary-color);
-    background-size: cover;
-    background-color: var(--secondary-color-opacity);
-    background-blend-mode: multiply;
-  }
-  
-  .project:hover {
-    top: -5px;
-    box-shadow: 5px 5px 10px var(--shadow-color);
-  }
+}
 
-  /* .project-background-img-1 {
-    background-image: url(./images/project-image-1.png)
-  }
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.project:hover {
+  top: -5px;
+}
+
+.project-title {
+  text-align: left;
+  float: left;
   
-  .project-background-img-2 {
-    background-image: url(./images/project-image-2.png)
-  }
+}
+
+.card-links {
+  text-align: right;
+  float: right;
+}
+
+.card-desc {
+  display: flex;
+
+}
+
+.icon {
+  font-size: 50px;
+}
+
+
+@media only screen and (min-width: 768px) {
   
-  .project-background-img-3 {
-    background-image: url(./images/project-image-3.png)
-  }
-  
-  .project-background-img-4 {
-    background-image: url(./images/project-image-4.png)
+  /* projects */
+  /* .project-mobile {
+   display: flex;
+   flex-wrap: wrap;
   } */
-  
-  .project-background:hover {
-    background-blend-mode: normal;
+
+  .project-image {
+    /* width: 50%; */
   }
+
   
-  .sub-projects {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-  }
-  
-  .sub-project {
-    flex: 1 1 500px;
-  }
-  
-  .project-heading {
-    position: absolute;
-    padding: 10px;
-    top: 15px;
-    left: 10px;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    border-radius: 10px 10px 10px 10px;
-  }
-  
-  .repo-heading {
-    position: absolute;
-    padding: 10px;
-    bottom: 15px;
-    right: 10px;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    width: unset;
-    border-radius: 10px 10px 10px 10px;
-    font-size: 30px;
-    border: none;
-  }
+}

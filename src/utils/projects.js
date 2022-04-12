@@ -5,7 +5,8 @@ const projects = [
         "description": "Find the best deal for the game you desire.",
         "repo": "https://github.com/jdomindev/game-getter",
         "deployed": "https://jdomindev.github.io/game-getter/",
-        "image": require("../images/project-image-1.png")
+        "image": require("../images/project-image-1.png"),
+        "icon": [{"c": "devicon-html5-plain-wordmark icon-styles px-0 icon", "l": "Html"}]
     },
     {
         "id": 2,
