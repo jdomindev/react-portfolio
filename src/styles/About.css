@@ -15,18 +15,35 @@
   border-radius: 10px;
   background: linear-gradient(to bottom, var(--primary-color) 65px, var(--tertiary-color) 0px);
   color: var(--secondary-color);
-  
-  align-items: center;
+  padding: 0px;
 }
 
-.icon-styles {
- padding: 10px;
+.card-title {
+  margin-bottom: px;
+}
+
+#icon-styles-about {
  font-size: 100px;
- 
+ /* background-color: rgb(59, 119, 197, .6); */
+ /* border-radius: 10px; */
+  padding: 0px 5px 0px 5px;
 }
 
 .icon-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.icon-list {
+  margin-top: 15px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  
+.card-title {
+  margin-bottom: 25px;
+}
+  
 }

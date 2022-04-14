@@ -35,7 +35,7 @@
 .color-wrapper {
   border-radius: 10px;
   padding: 10px;
-  background-color: rgb(59, 119, 197, .6);
+  /* background-color: rgb(59, 119, 197, .6); */
   margin-top: 20px;
 }
 
@@ -52,7 +52,6 @@
 
 .card-link-item:hover,
 .card-link-item:focus  {
-  top: -10px;
   opacity: 1;
 }
 
@@ -61,8 +60,9 @@
 
 }
 
-.icon {
-  font-size: 40px;
+#icon-styles {
+  font-size: 50px;
+  padding: 0px 0px 0px 0px
 }
 
 
@@ -75,7 +75,7 @@
   }
 
   .project-card {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     
   }

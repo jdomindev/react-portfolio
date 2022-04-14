@@ -1,6 +1,9 @@
 import React from 'react';
 import profile from '../../images/profile-image.jpg'
 import '../../styles/About.css'
+import {icons} from '../../utils/projects'
+
+
 
 export default function About() {
   return (
@@ -26,18 +29,11 @@ export default function About() {
                 <div className="row my-5 mx-3 align-items-center">
                     <div className="about-me-card col-md-12 ">
                         <div className="card-body">
-                            <h1 className="card-title mb-4">Skills</h1>
-                            <div className="text-center icon-flex">
-                                <i className="devicon-html5-plain-wordmark icon-styles px-0"></i>
-                                <i className="devicon-css3-plain-wordmark icon-styles px-0"></i>
-                                <i className="devicon-javascript-plain icon-styles px-0"></i>
-                                <i className="devicon-react-original-wordmark icon-styles px-0"></i>
-                                <i className="devicon-express-original-wordmark icon-styles px-0"></i>
-                                <i className="devicon-nodejs-plain-wordmark icon-styles px-0"></i>
-                                <i className="devicon-mongodb-plain-wordmark icon-styles px-0"></i>
-                                <i className="devicon-mysql-plain-wordmark icon-styles px-0"></i>
-                                <i className="devicon-git-plain-wordmark icon-styles px-0"></i>
-                                <i className="devicon-npm-original-wordmark icon-styles px-0"></i>
+                            <h1 className="card-title">Skills</h1>
+                            <div className="text-center">
+                                <ul className="list-unstyled list-inline icon-list mt-5">
+                                    {icons.map(icon => ( <li className="list-inline-item"><i id="icon-styles-about" className={icon}></i></li>))}
+                                </ul>
                             </div>
                         </div>
                     </div>
