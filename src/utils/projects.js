@@ -86,7 +86,7 @@ const projects = [
   },
   {
     id: 6,
-    title: "Tandom-Fandom",
+    title: "Tandem-Fandom",
     position: "Developer | Designer",
     description:
       "MERN stack app designed for those seeking to find and match with users with similar fandom interests. Created back-end by combining a Node.js/Express.js server and MongoDB/GraphQL database and query language. Utilized a React front-end supplemented with bootstrap, react-bootstrap, and react router.",
