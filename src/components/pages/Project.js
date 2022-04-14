@@ -52,9 +52,7 @@ const projectList = projects.map(project => (
                 <div className="col-xs-12 color-wrapper">
                     <img className="project-image" src={project.image} alt="project landing page"></img>
                 </div>
-                
             </div>
-           
     </section>
 ))
 

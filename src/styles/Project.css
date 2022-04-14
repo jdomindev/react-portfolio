@@ -50,6 +50,9 @@
   float: right;
 }
 
+.card-link-item {
+  color: var(--secondary-color);
+}
 .card-link-item:hover,
 .card-link-item:focus  {
   opacity: 1;
