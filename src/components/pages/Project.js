@@ -40,13 +40,13 @@ const projectList = projects.map(project => (
                 <a href={project.deployed} target="_blank" rel="noreferrer" aria-label="deployed link"><i className="fa fa-external-link pe-2 card-link-item"></i></a>
                 <a href={project.repo} target="_blank" rel="noreferrer" aria-label="repository link"><i className="fab fa-github ps-2 card-link-item"></i></a>
             </div>
-            <div className="project-bio container">
+            <div className="project-bio container mt-5">
                 <div className="col-lg-6 col-xs-12 color-wrapper color-wrapper-margin">
                     <h4  className="card-title">{project.position}</h4>
                     <h6 className="my-3">{project.description}</h6>
                     <h4  className="card-title">Tech:</h4>
                     <ul className="list-unstyled list-inline m-0">
-                        {project.icons.map(icon => ( <li className="list-inline-item"><i id="icon-styles" className={icon}></i></li>))}
+                        {project.icons.map(icon => ( <li className="list-inline-item" key={icon.id}><i id="icon-styles" className={icon}></i></li>))}
                     </ul>
                 </div>
                 <div className="col-xs-12 color-wrapper">

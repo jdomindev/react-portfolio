@@ -32,7 +32,7 @@ export default function About() {
                             <h1 className="card-title">Skills</h1>
                             <div className="text-center">
                                 <ul className="list-unstyled list-inline icon-list mt-5">
-                                    {icons.map(icon => ( <li className="list-inline-item"><i id="icon-styles-about" className={icon}></i></li>))}
+                                    {icons.map(icon => ( <li className="list-inline-item" key={icon.id}><i id="icon-styles-about" className={icon}></i></li>))}
                                 </ul>
                             </div>
                         </div>
