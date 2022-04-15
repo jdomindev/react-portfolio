@@ -16,6 +16,7 @@ const projects = [
     id: 1,
     title: "Tandem-Fandom",
     position: "Developer | Designer",
+    date: "Feb 2022",
     description:
       "MERN stack app designed for those seeking to find and match with users with similar fandom interests. Created back-end by combining a Node.js/Express.js server and MongoDB/GraphQL database and query language. Utilized a React front-end supplemented with bootstrap, react-bootstrap, and react router.",
     repo: "https://github.com/jdomindev/tandemfandom",
@@ -35,6 +36,7 @@ const projects = [
     id: 2,
     title: "Tech Blog",
     position: "Developer | Designer",
+    date: "Jan 2022",
     description:
       "Blog where users can create, update, and delete their own blog posts and comment on other user’s posts. Built functionality following the MVC paradigm and utilizing Handlebars.js, Sequelize, and express-session for authentication.",
     repo: "https://github.com/jdomindev/tech-blog",
@@ -53,6 +55,7 @@ const projects = [
     id: 3,
     title: "Game Getter",
     position: "Developer | Designer",
+    date: "Dec 2021 - Jan 2022",
     description:
       "App where you can search for the best deals for any video game you desire. Leverages RawG and Cheapshark APIs to find the best deals for video games from across the web.",
     repo: "https://github.com/jdomindev/game-getter",
@@ -68,6 +71,7 @@ const projects = [
     id: 4,
     title: "Weather Dashboard",
     position: "Developer | Designer",
+    date: "Dec 2021",
     description:
       "Weather app that utilizes data fetched from OpenWeatherMap API. Built using Bootstrap and JavaScript to dynamically render API data.",
     repo: "https://github.com/jdomindev/weather-dashboard",
@@ -83,8 +87,9 @@ const projects = [
     id: 5,
     title: "Work Day Planner",
     position: "Developer | Designer",
+    date: "Dec 2021",
     description:
-      "Day scheduler that renders HTML dynamically using jQuery and Bootstrap. The app also utilizes Moment library and stores values in local storage.",
+      "Day scheduler that lets you save your tasks and tracks the current time using different color time blocks. This app renders HTML dynamically using jQuery and is styled with Bootstrap. Utilizes Moment library for the date and time, and tasks are saved in local storage to persist even if browser is closed.",
     repo: "https://github.com/jdomindev/work-day-planner",
     deployed: "https://jdomindev.github.io/work-day-planner/",
     image: require("../images/project-image-2.png"),
@@ -98,6 +103,7 @@ const projects = [
     id: 6,
     title: "Password Generator",
     position: "Developer",
+    date: "Dec 2021",
     description:
       "Generator that takes in user input for password prerequisites and then generates a random password on the page. ",
     repo: "https://github.com/jdomindev/password-generator",

@@ -6,7 +6,12 @@
     --tertiary-color: rgb(56, 56, 56);
     --background-color: rgb(41, 41, 41);
     --shadow-color: rgba(0, 5, 17, 0.5);
-}     
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
   
 html {
   scroll-behavior: smooth;
@@ -37,19 +42,6 @@ body {
   bottom: 0;
   width: 100%;
   height: 160px;            /* Footer height */
-}
-
-@media only screen and (min-width: 992px) {
-  
-  /* nav */
-  .nav-link:hover {
-      border-bottom: 2px solid var(--secondary-color);
-      color: var(--secondary-color);
-  }
-
-    .active {
-      border-bottom: 2px solid var(--secondary-color)
-  }
 }
 
 

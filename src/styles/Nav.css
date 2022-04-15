@@ -5,3 +5,41 @@
 a:visited {
     color:  var(--secondary-color) !important;
 }
+
+.nav-link-adjust {
+    padding-top: 11px !important;
+}
+
+.resume-btn {
+    font-size: 20px !important;
+}
+
+.dropdown-menu {
+    color: var(--secondary-color) !important;
+    background-color: var(--primary-color) !important;
+    border: none !important;
+    font-size: 20px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dropdown-toggle {
+    width: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+  
+    /* nav */
+    .nav-link:hover {
+        /* border-bottom: 2px solid var(--secondary-color); */
+        color: var(--secondary-color) !important;
+    }
+  
+    .active {
+        border-bottom: 2px solid var(--secondary-color);
+    }
+
+    .dropdown-menu {
+        transform: translate3d(10px, 10px, 0px)!important;
+    }
+  }

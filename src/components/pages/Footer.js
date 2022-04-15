@@ -9,7 +9,7 @@ export default function Footer() {
                 <a className="btn btn-outline-light btn-floating me-2" href="mailto:jdomindev@gmail.com" target="_blank" rel="noreferrer" role="button"
                     ><i className="fab fa-google"></i
                 ></a>
-                <a className="btn btn-outline-light btn-floating me-2" href="https://www.linkedin.com/in/jose-dominguez-94b689225/" target="_blank" rel="noreferrer" role="button"
+                <a className="btn btn-outline-light btn-floating me-2" href="https://www.linkedin.com/in/jdomindev/" target="_blank" rel="noreferrer" role="button"
                     ><i className="fab fa-linkedin"></i
                 ></a>
                 <a className="btn btn-outline-light btn-floating me-2" href="https://github.com/jdomindev" target="_blank" rel="noreferrer" role="button"
@@ -23,7 +23,7 @@ export default function Footer() {
                 <a className="text-white text-decoration-none" href="mailto:jdomindev@gmail.com">jdomindev@gmail.com</a>
             </div>
             <div className="text-center p-3">
-                <h6 className="copyright text-white text-decoration-none">© 2022 Copyright: Jose Dominguez</h6>
+                <h6 className="copyright text-white text-decoration-none">© 2022 Copyright: José Dominguez</h6>
             </div>
         </footer>
     )

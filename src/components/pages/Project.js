@@ -46,10 +46,11 @@ const projectList = projects.map(project => (
                     <h6 className="my-3">{project.description}</h6>
                     <h4  className="card-title">Tech:</h4>
                     <ul className="list-unstyled list-inline m-0">
-                        {project.icons.map(icon => ( <li className="list-inline-item" key={icon.id}><i id="icon-styles" className={icon}></i></li>))}
+                        {project.icons.map(icon => ( <li className="list-inline-item" key={icon.id}><i id="icon-styles" className={icon.icon}></i></li>))}
                     </ul>
                 </div>
                 <div className="col-xs-12 color-wrapper">
+                    <h5 className="card-title mb-3 text-end"><i className="fa-solid fa-calendar pe-2"></i>{project.date}</h5>
                     <img className="project-image" src={project.image} alt="project landing page"></img>
                 </div>
             </div>
