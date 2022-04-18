@@ -10,6 +10,10 @@ a:visited {
     padding-top: 11px !important;
 }
 
+.btn-group>.btn {
+    width: 30px;
+}
+
 .resume-btn {
     font-size: 20px !important;
 }
@@ -21,10 +25,6 @@ a:visited {
     font-size: 20px !important;
     margin: 0 !important;
     padding: 0 !important;
-}
-
-.dropdown-toggle {
-    width: 10px;
 }
 
 @media only screen and (min-width: 992px) {
@@ -43,3 +43,14 @@ a:visited {
         transform: translate3d(10px, 10px, 0px)!important;
     }
   }
+
+  @media only screen and (max-width: 768px) {
+    .btn-group>.btn {
+        position: relative !important;
+        flex: none !important;
+        width: 50px;
+    }
+    
+      
+    }
+  

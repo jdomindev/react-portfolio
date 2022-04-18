@@ -71,7 +71,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                 </li>
               </ul>
             </div> */}
-            <div className="btn-group ">
+            <div className="btn-group">
               <a className="resume-btn nav-link" href="https://drive.google.com/file/d/1XPvQN6AZCTswh5gEIgW8Gjur9PCPnZ0U/view?usp=sharing" target="_blank"
                     rel="noreferrer">Resumé</a>
               <button type="button" className="btn resume-btn nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
