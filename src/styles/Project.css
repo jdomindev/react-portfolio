@@ -37,6 +37,7 @@
   padding: 10px;
   /* background-color: rgb(59, 119, 197, .6); */
   margin-top: 10px;
+  
 }
 
 .project-title {
@@ -89,6 +90,7 @@
 
   .color-wrapper-margin {
     margin-right: 25px;
+    margin: auto 0;
   }
 
 

@@ -67,8 +67,10 @@ export default function Contact() {
           <div className="contact-card mx-3 my-5">
             <div className="card-body p-3">
               <h2 className="contact-header text-center text-white">Contact Me</h2>
-              <form className="form text-center">
+              <form className="form text-center" action="https://formsubmit.co/jdomindev@gmail.com" method="POST">
                 <div className="form-group">
+                  <input type="hidden" name="_subject" value="Contact from Portfolio"
+                  />
                   <input
                     className="form-control my-3"
                     value={name}
@@ -76,6 +78,7 @@ export default function Contact() {
                     onChange={handleInputChange}
                     type="text"
                     placeholder="Full Name"
+                    required
                   />
                 </div>
                 <div className="form-group">
@@ -101,6 +104,7 @@ export default function Contact() {
                     required
                   />
                 </div>
+                {/* <button type="submit">Here</button> */}
                 <button className="btn button" type="submit" onClick={handleFormSubmit}>Submit</button>
               </form>
             </div>
