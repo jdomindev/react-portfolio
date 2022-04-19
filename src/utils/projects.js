@@ -20,7 +20,7 @@ const projects = [
     description:
       "MERN stack app designed for those seeking to find and match with users with similar fandom interests. Created back-end by combining a Node.js/Express.js server and MongoDB/GraphQL database and query language. Utilized a React front-end supplemented with bootstrap, react-bootstrap, and react router.",
     repo: "https://github.com/jdomindev/tandemfandom",
-    deployed: "https://tandemfandom.herokuapp.com/",
+    deployed: "https://thawing-island-96191.herokuapp.com/",
     image: require("../images/project-image-6.png"),
     icons: [
       { id: 1, icon: "devicon-html5-plain-wordmark" },
