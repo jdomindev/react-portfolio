@@ -1,6 +1,6 @@
 :root {
     /* --primary-color: rgb(34, 106, 199); */
-    --primary-color: rgb(59, 119, 197);
+    --primary-color: rgb(59, 119, 197, .8);
     --secondary-color: rgb(246, 245, 245);
     --secondary-color-opacity: rgba(15, 1, 1, 0.5);
     --tertiary-color: rgb(56, 56, 56);
