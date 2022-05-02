@@ -18,6 +18,12 @@ a:visited {
     font-size: 20px !important;
 }
 
+.ats-resume {
+    background-color: none !important;
+    text-align: center;
+}
+
+
 .dropdown-menu {
     color: var(--secondary-color) !important;
     background-color: var(--primary-color) !important;
@@ -40,8 +46,10 @@ a:visited {
     }
 
     .dropdown-menu {
-        transform: translate3d(10px, 10px, 0px)!important;
+        transform: translate3d(5px, 15px, 0px)!important;
     }
+
+    
   }
 
   @media only screen and (max-width: 768px) {

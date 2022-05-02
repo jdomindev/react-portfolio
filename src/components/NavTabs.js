@@ -78,7 +78,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
                 <span className="visually-hidden">Toggle Dropdown</span>
               </button>
               <ul className="dropdown-menu dropdown-menu-end">
-                <li><a className="resume-btn nav-link" href="https://drive.google.com/file/d/1URkiU2vqHl6UBqxUWpSQpxsIAiFqyd6W/view?usp=sharing" target="_blank"
+                <li><a className="resume-btn ats-resume nav-link" href="https://drive.google.com/file/d/1URkiU2vqHl6UBqxUWpSQpxsIAiFqyd6W/view?usp=sharing" target="_blank"
                     rel="noreferrer">Resumé (ATS)</a></li>
               </ul>
             </div>
