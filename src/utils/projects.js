@@ -47,6 +47,7 @@ const projects = [
       { id: 2, icon: "devicon-css3-plain-wordmark" },
       { id: 3, icon: "devicon-javascript-plain" },
       { id: 5, icon: "devicon-nodejs-plain-wordmark" },
+      { id: 6, icon: "devicon-express-original-wordmark" },
       { id: 6, icon: "devicon-mysql-plain-wordmark" },
     ],
   },
